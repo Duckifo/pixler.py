@@ -20,6 +20,7 @@ def assign_method(*, name: str):
     return cb
   return decorator
 
+
 @assign_method(name="value")
 def _(d: np.ndarray, xy: Tuple[int,int]):
   return d[xy].sum(dtype=np.int32) / 4
