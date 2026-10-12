@@ -1,0 +1,3 @@
+*ADD parameter to the methods.
+*SECURE the application class.
+*ADD saving images.
